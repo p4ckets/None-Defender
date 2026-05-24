@@ -82,10 +82,13 @@ the junk module.
 
 ---
 
+## Disclaimer
+This tool is for educational and authorized testing purposes only. Use only in controlled environments with proper consent.
+
 ## File layout
 
 ```
-None-Defender\
+Kiln\
   build.bat   -- orchestrates prebuild -> nuitka -> pack
   pack.py     -- prebuild and pack subcommands
   README.md
