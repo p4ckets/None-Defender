@@ -535,7 +535,7 @@ def cmd_pack(args):
 # ── cli ───────────────────────────────────────────────────────────────────────
 
 def main():
-    ap = argparse.ArgumentParser(prog='pack.py', description='None-Defender packer')
+    ap = argparse.ArgumentParser(prog='pack.py', description='Kiln packer')
     sub = ap.add_subparsers(dest='cmd', required=True)
 
     pb = sub.add_parser('prebuild', help='inject bootstrap junk + py junk module')
